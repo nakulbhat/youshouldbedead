@@ -1,6 +1,6 @@
 :root {
-    --textcolor: rgb(255, 255, 255);
-    --bgcolor: #000000;
+    --textcolor: #323232;
+    --bgcolor: #DDD0C8;
     --glasscolor: rgba(255, 255, 255, 0);
     --lighttextcolor: rgba(128, 128, 128, 0.358);
 }
@@ -169,7 +169,7 @@ svg {
     text-align: center;
     margin: auto;
     margin-top: 200px;
-    font-size: 25px;
+    font-size: 30px;
     animation: fadeInAnimation both ease-in-out 0.75s 3s;
 }
 
@@ -188,10 +188,11 @@ p.songsubtitle {
 }
 
 .songcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-    margin-top: 70px;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly; */
+    /* margin-top: 70px; */
+    padding: auto;
 }
 
 .songentry {
